@@ -1,59 +1,59 @@
 const About = {
     about: {
-        title: "I live somewhere between Sketch, JavaScript, and whiteboards.",
-        description: "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+        title: "Brewing Change Across Borders with Glocafé.",
+        description: "Glocafé is more than just a coffee brand. Born in Geneva, Switzerland, and inspired by diverse cultures from Austria to Peru, we're on a mission to reshape the global coffee landscape. With a clear vision to decentralize the coffee market, we challenge giants, ensuring that coffee production and consumption benefits are shared globally. Dive into a cup that tells a story of passion, dedication, and global collaboration.",
         experience: [
             {
-                title: "Senior Product Designer",
-                company: "Google",
-                date: "2019 - Present",
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                title: "Global Coffee Initiative",
+                company: "Glocafé",
+                date: "2023 - Present",
+                description: "Focusing on empowering local farmers, roasters, and stakeholders in the coffee supply chain, while ensuring a coffee experience that combines Swiss precision with global flavors.",
             },
             {
-                title: "Product Designer",
-                company: "Dribbble",
-                date: "2017 - 2019",
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                title: "Consulting & Cupping",
+                company: "Glocafé",
+                date: "2023 - Present",
+                description: "Offering expertise in coffee consulting, cupping sessions, and sales services, making Glocafé a comprehensive coffee partner.",
             },
             {
-                title: "Product Designer",
-                company: "Facebook",
-                date: "2014 - 2017",
-                description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+                title: "Swiss Quality, Global Touch",
+                company: "Glocafé",
+                date: "2023 - Present",
+                description: "Embracing the essence of Swiss quality while integrating flavors from Peru and Ethiopia for a unique coffee experience.",
             },
         ],
         education: [
             {
-                degree: "MS",
-                program: "Human-Centered Design & Engineering",
-                school: "University of Michigan",
-                date: "2019 - 2021",
-                about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                degree: "Coffee Excellence",
+                program: "Decentralized Coffee Production",
+                school: "Glocafé Training",
+                date: "2023 - 2023",
+                about: "Training farmers, roasters, and partners to produce coffee that celebrates diversity and ensures equitable growth."
             },
             {
-                degree: "BFA",
-                program: "Graphic Design",
-                school: "University of Michigan",
-                date: "2009 - 2013",
-                about: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
+                degree: "Global Coffee Collaboration",
+                program: "Coffee Sourcing & Partnerships",
+                school: "Glocafé Initiatives",
+                date: "2023 - 2023",
+                about: "Collaborating with coffee producers from Peru, Tanzania & Ethiopia, bringing unique flavors to the global audience."
             }
         ]
     },
     contact: {
-        title: "Get in touch.",
-        description: "I'm always interested in meeting new people. Use the contact form, or you can shoot me an email at",
-        email: "hello@schrutefarms.com",
+        title: "Join the Movement.",
+        description: "Whether you're a farmer, roaster, coffee enthusiast, or investor, we're eager to connect. Reach out to us and let's reshape the coffee world together.",
+        email: "connect@glocafe.com",
         formspree: ""
     },
     home: {
-        name: "Dwight Schrute",
-        title: "Personal blog where I write code and explain all the things.",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        name: "Glocafé",
+        title: "Reshaping the Coffee World, One Brew at a Time.",
+        description: "Dedicated to bringing change, equity, and diversity to the global coffee industry. Join us on this transformative journey.",
     },
     social: {
-        codepen: "stevehayes",
-        dribbble: "stevehayes",
-        linkedin: "stephenahayes"
+        codepen: "",
+        dribbble: "",
+        linkedin: "glocafe-official"
     },
 
 };
