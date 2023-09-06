@@ -5,8 +5,8 @@ export const NavContainer = styled.div`
 	left: 0;
     right: 0;
     top: 0;
-    background: ${props => props.theme.colors.black};
-    z-index: 10;
+    background: ${props => props.theme.colors.grey};
+    z-index: 10;a
     border-bottom: 1px solid #212121;
 
     @media (max-width: ${props => props.theme.queries.desktop}) {

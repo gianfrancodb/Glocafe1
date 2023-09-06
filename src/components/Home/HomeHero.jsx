@@ -23,11 +23,14 @@ const HomeHero = () => {
                 <Container leftAlign bottom={6} width={65}>
                     <p>{Data.home.description}</p>
                 </Container>
+                <Container style={{ alignSelf: 'flex-end' }} bottom={-10} width={65}>
+                 <img src="/Glocafe.svg" alt="Logo" style={{ maxHeight: '20vw', marginLeft: '20vw' }} />
+                </Container>
 
                 <a href="/about">
                     <Button
                         route="/about"
-                        text="About Me"
+                        text="About Us"
                         right
                     />
                 </a>

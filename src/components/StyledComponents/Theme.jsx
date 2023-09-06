@@ -1,10 +1,11 @@
 export default {
     body: {
-        background: "#000",
-        text: "#888",
-        headers: "#FFF"
+        background: "#c2c5aa",
+        text: "#a98467",
+        headers: "#283618"
     },
     colors: {
+        grey: "#c2c5aa",
         black: "#000",
         white: "#FFF",
         gray: "#7A839A",

@@ -11,7 +11,7 @@ const initials = split.length > 1 ? split[0].charAt(0) + split[1].charAt(0) : sp
 
 const Logo = (props) => (
     <NavLogo href="/home">
-        <img src="/Glocafe(3).svg" alt="" style={{ marginRight: '10px' }} />
+        <img src="/Glocafe (3).svg" alt="Logo" style={{ marginRight: '10px' , maxHeight: '2vw'}} />
         <DesktopLogo>
             {Data.home.name}
         </DesktopLogo>

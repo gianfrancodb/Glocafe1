@@ -198,6 +198,8 @@ export const BodyContainer = styled.div`
     max-width: ${props => props.theme.queries.desktop};
     margin: 0 auto;
     padding: 0 2rem;
+    display: flex;
+    flex-direction: column;
 `;
 
 export const HeroContainer = styled(motion.div)`
@@ -207,7 +209,7 @@ export const HeroContainer = styled(motion.div)`
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-
+    
     @media (max-width: ${props => props.theme.queries.mobile}) {
         height: auto;
         padding: 100px 0 200px 0;
