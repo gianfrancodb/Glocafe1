@@ -15,8 +15,9 @@ const HomeHero = () => {
             transition={{ duration: 2, delay: 1 }}
             exit={{ opacity: 0 }}
         >
+        
             <BodyContainer>
-                <Container width={80} leftAlign bottom={2}>
+                <Container width={80} leftAlign bottom={2} top={10}>
                     <h1>{Data.home.title}</h1>
                 </Container>
 

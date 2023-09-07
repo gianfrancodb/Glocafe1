@@ -200,12 +200,14 @@ export const BodyContainer = styled.div`
     padding: 0 2rem;
     display: flex;
     flex-direction: column;
+    
 `;
 
 export const HeroContainer = styled(motion.div)`
     height: 100vh;
     align-items: center;
     width: 100%;
+    margin: auto;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
