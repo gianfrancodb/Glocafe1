@@ -200,7 +200,6 @@ export const BodyContainer = styled.div`
     padding: 0 2rem;
     display: flex;
     flex-direction: column;
-    
 `;
 
 export const HeroContainer = styled(motion.div)`
@@ -214,9 +213,10 @@ export const HeroContainer = styled(motion.div)`
     
     @media (max-width: ${props => props.theme.queries.mobile}) {
         height: auto;
-        padding: 100px 0 200px 0;
+        padding: 50px 0 100px 0;  // Adjusted padding values
     }
 `;
+
 
 export const ResumeItem = styled.div`
     margin: 0;

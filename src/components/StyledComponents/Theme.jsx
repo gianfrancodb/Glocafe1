@@ -1,6 +1,10 @@
 export default {
     body: {
-        background: "#c2c5aa",
+        
+
+        
+        background: "linear-gradient(#c2c5aa 0%, #c2c5aa 50%, #344e41 100%)",
+        text: "#a98467",
         text: "#a98467",
         headers: "#283618"
     },

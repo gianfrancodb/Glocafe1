@@ -3,9 +3,14 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
+    "@fastify/cors": "^8.4.0",
+    "axios": "^1.5.0",
+    "express": "^4.18.2",
+    "fastify": "^4.23.2",
     "framer-motion": "^1.7.0",
     "history": "^4.10.1",
     "marked": "^1.2.7",
+    "node-fetch": "^3.3.2",
     "react": "^16.11.0",
     "react-awesome-reveal": "^3.5.1",
     "react-dom": "^16.11.0",
@@ -15,10 +20,11 @@
     "react-scripts": "^3.3.0",
     "react-scroll-progress-read": "0.0.13",
     "react-syntax-highlighter": "^12.2.1",
+    "recharts": "^2.8.0",
     "styled-components": "^5.0.0"
   },
   "scripts": {
-    "start": "react-scripts --openssl-legacy-provider start",
+    "start": "concurrently \"react-scripts --openssl-legacy-provider start\" \"node src/components/Home/server.js\"",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -37,5 +43,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.1"
   }
 }

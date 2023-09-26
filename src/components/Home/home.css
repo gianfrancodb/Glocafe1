@@ -1,0 +1,127 @@
+.notepad {
+  position: relative;
+  width: 80%;
+  height: 70vh;
+  margin-top: 2vh;
+  background-image: 
+    linear-gradient(to bottom, rgba(213, 189, 175, 0), #d5bdaf, #d5bdaf 80%, #c2c5aa 100%),
+    linear-gradient(to bottom, rgba(213, 189, 175, 1), rgba(213, 189, 175, 1) 30px, #EAEAEA 30px, #EAEAEA 31px);
+  background-size: 100%, 100% 31px;
+  box-shadow: 
+  0 -5px 5px -3px rgba(0, 0, 0, 0.2),  /* Top shadow */
+  -5px 0 5px -6px rgba(0, 0, 0, 0.2),  /* Left side shadow */
+  5px 0 5px -6px rgba(0, 0, 0, 0.2);   /* Right side shadow */
+  border-radius: 20px 20px 0 0; /* This will apply border radius to the top corners */
+  align-items: center;
+  margin: 100px auto;
+  text-align: center;
+  min-height: fit-content;
+
+}
+
+
+
+
+/* For landscape mode */
+@media screen and (orientation:landscape) and (max-width: 1000px) {
+  div.notepad {
+      
+      min-height: 100vw;
+      padding-bottom: 2rem;
+      
+  }
+
+  div.prices {
+      
+    margin-top: 60vw;
+    
+}
+img.logoImage {
+  top: -2vw;
+  
+}
+}
+
+
+@media screen and (max-width: 1000px) and (orientation:landscape) {
+  div.notepad {
+      margin-top: 60vw;
+  }
+}
+
+@media screen and (orientation:landscape) and (max-width: 667px) {
+  div.notepad {
+    margin-top: 10vw;
+  }
+  div.prices {
+    margin-top: 10vw;
+  }
+}
+
+div.responsive-title {
+  margin-top: 12rem;  /* This is the default value that's being applied currently */
+}
+
+@media (max-width: 768px) {
+  div.responsive-title {
+      margin-top: 8rem;  /* Adjusted value for smaller screens */
+  }
+}
+
+.logoImage {
+  max-width: 100%;
+  min-width: 260px;
+  max-height: 20vw;
+  position: absolute;
+  top: -7vw;
+  right: -10vw;
+}
+
+@media (max-width: 1024px) {
+  .logoImage {
+      right: 50%;
+      transform: translateX(50%);
+      min-height: 20vh;
+      
+  }
+}
+
+
+.news-feed {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #f4e9d8;
+  padding: 20px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.article {
+  flex: 1 1 calc(33.333% - 20px);
+  margin: 10px;
+  border: 1px solid #000;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 5px 5px 0px #000;
+}
+
+.article img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.article h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.article p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.article a {
+  color: #000;
+  text-decoration: underline;
+}
